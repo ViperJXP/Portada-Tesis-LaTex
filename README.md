@@ -10,8 +10,3 @@ Por otro lado, los últimos dos campos son opcionales y es por si se diera el ca
 Se incluyen también imágenes que deben ser agregadas al proyecto en LaTex, son necesarias y ya llevan el nombre adecuado para sólo importarlas y poder correr correctamente el código.
 
 Al final del formulario está un botón de "Generar LaTex", lo que lleva a abrir el explorador de archivos y pide un nombre para el archivo "*.tex".
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Un cambio pendiente es el de extraer el año del string para la fecha, o bien solicitar por separado mes y año, esto porque el código se realiza poniendo la variable "fecha" tal cual en la portada, pero al final hay una cesión de derechos, en donde se establece el año y esa, hasta ahora, está fija, se podría utulizar, o bien un string "año" o bien los últimos 4 caracteres del string "fecha"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
