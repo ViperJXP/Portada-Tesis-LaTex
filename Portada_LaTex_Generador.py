@@ -2,7 +2,7 @@
 """
 Created on Sat Mar  8 16:06:11 2025
 
-@author: Josué Hernández Torres y ChatGPT
+@author: Josué Hernández Torres
 """
 import tkinter as tk
 from tkinter import messagebox, filedialog
