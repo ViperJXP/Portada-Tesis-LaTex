@@ -12,6 +12,7 @@ def generar_latex():
     alumno = entry_alumno.get()
     especialidad = entry_especialidad.get()
     fecha = entry_fecha.get()
+    anio = fecha[-4:]
     asesor1 = entry_asesor1.get()
     asesor2 = entry_asesor2.get()
     asesor3 = entry_asesor3.get()
@@ -71,7 +72,7 @@ def generar_latex():
     % Texto inferior con derechos de autor
     \node[align=center] at (8.5cm, -24.5cm) {{\parbox{{10cm}}{{%
         \centering
-        \textcopyright\ INAOE 2025 \\\\
+        \textcopyright\ INAOE {anio} \\\\
         Derechos Reservados \\\\
         El autor otorga al INAOE el permiso de reproducir y \\\\
         distribuir copias de esta tesis en su totalidad o en partes \\\\
